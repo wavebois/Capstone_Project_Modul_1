@@ -508,6 +508,7 @@ Masukan angka menu yang ingin dijalankan:''')
                         del dict_coffee[input_kode_item]
                         print()
                         print('Data telah terhapus')
+                        menu_4()
                     else:
                         print()
                         print('Data tidak ada')
